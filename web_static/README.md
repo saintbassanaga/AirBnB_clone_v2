@@ -1,1 +1,1 @@
-web static task echoke!!!
+This directory implements webpage design.
