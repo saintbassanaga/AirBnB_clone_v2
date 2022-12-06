@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ """
 from models.base_model import BaseModel
@@ -24,7 +25,7 @@ class test_basemodel(unittest.TestCase):
     def tearDown(self):
         try:
             os.remove('file.json')
-        except FileNotFoundError:
+        except:
             pass
 
     def test_default(self):
